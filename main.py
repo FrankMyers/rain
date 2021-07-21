@@ -32,7 +32,7 @@ while 1:
             quit()
 
     for i in range(50):
-        rain_drops.append(items.rain_drop(root, 10, 1, 1))
+        rain_drops.append(items.rain_drop(root, 10, 10, 1))
 
     for drop in rain_drops:
         if drop.y >= root.get_height():
